@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.interface{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container {
+    background: slateblue;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+/* estilo navegação*/
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem 0 3rem;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-inline: 1rem;
+}
+
+
+.left-nav {
+    display: flex;
+}
+
+/*estilo icons*/
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.social-icons a {
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 0.5rem;
+    color: rgb(194, 34, 34)
+}
+
+/*estilo informacoes pessoais*/
+.mid-info {
+    color: white;
+    padding: 10rem 5rem 0 5rem;
+    text-align: center;
+}
+
+.personal-info {
+    text-align: center;
+    margin-top: 12rem; 
+}
+
+.personal-info p {
+    margin-bottom: 0.5rem; 
+}
+.name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 7rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.name span {
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.work {
+    letter-spacing: 2.5px;
+}
+
+/*estilo seção de descrição*/
+.desc-secao {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f9fafb;
+    color: rgb(194, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 6.4em;
+    justify-content: space-between;
+}
+
+.desc-secao-left {
+    width: 50ch;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.desc-secao-left.texto-sobre{
+    text-align: left;
+}
+.desc-secao p {
+    line-height: 2;
+}
+
+.desc-secao img{
+    width: 80%; 
+    height: 400px; 
+    object-fit: cover;
+    border-radius: 50px; 
+    margin: 0 auto;
+}
+
+.foto-eu {
+    border:10px solid red;
+    border-radius: 100px;
+}
+
+/*titulos*/
+h3 {
+    font-size: 3rem;
+    color: blueviolet;
+}
+
+/*estilo formação*/
+.form {
+    padding: 8rem 7.5rem;
+    background: #0a090c;
+    color: rgb(235, 235 , 235);
+}
+
+.form h3 {
+    color: rgb(220, 20, 20);
+}
+
+.form-left {
+    order: 2;
+}
+
+.formacao {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.formacao-name {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.formacao-item {
+    flex-basis: 45%;
+    align-items: center;
+    text-align: center;
+}
+
+.formacao-item p {
+    margin: 0.5rem 0; 
+}
+
+.formacao-item a {
+    display: block; 
+    margin-top: 1rem; 
+}
+
+.formacao-item img {
+    width: 150px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+/*estilo projetos*/
+.projetos {
+    padding: 7rem 7.5rem;
+    color: black;
+    text-align: center;
+}
+
+.projeto-text1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/*tamanho dos itens projeto*/
+h4 {
+    font-size: 1.5rem; 
+}
+
+/*estilo qualificações*/
+.qualificacoes {
+    background-color: #0a090c;
+    color: white;
+    padding: 8rem 7.5rem;
+    text-align: center;
+}
+
+.qualificacoes-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    margin-bottom: 2rem;
+}
+
+.logo-qualificacao {
+    width: 100px;
+    height: auto;
+    margin: 10px; 
+    padding: 5px;
+}
+
+.qualificacoes-box {
+    color: #fff;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    transition: .2s;
+    background-color: #fdfcff;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: column;
+
+}
+
+.qualificacoes .qualificacoes-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #fff;
+    }
+
+
+.free {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/*linha horizontal*/
+hr {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+/*estilo rodapé*/
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2.5rem;
+    color: rgb(194, 34, 34);
+}
+
+footer a {
+    text-decoration: none;
+    padding-inline: 1.25rem;
+    color: rgb(194, 34, 34);
+}
+
+footer p {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/*ajustes para dispositivos menores*/
+@media screen and (max-width: 768px) {
+
+    .left-nav {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    nav {
+        padding: 1rem 2rem;
+    }
+    nav a {
+        padding: 0.5rem;
+    }
+
+    .mid-info {
+        padding: 5rem 2rem;
+    }
+    .personal-info {
+        margin-top: 3rem;
+    }
+    .social-icons {
+        margin-top: 3rem;
+    }
+    .name {
+        font-size: 6rem;
+    }
+    .work {
+        font-size: 1.5rem;
+    }
+
+    .desc-secao {
+        flex-wrap: wrap;
+    }
+    
+    .desc-secao-left h3 {
+        text-align: center;
+    }
+
+    .desc-secao img {
+        width: 80%; 
+        display: block; 
+        margin: 0 auto; 
+        border-radius: 50px; 
+    }
+
+    .formacao-item p {
+        text-align: center;
+    }
+
+    .formacao-item img {
+        display: block; 
+        margin: 0;
+        align-items: center;
+    }
+
+    .projetos {
+        padding: 5rem 2rem;
+    }
+    .projeto-text1 {
+        font-size: 1.2rem;
+    }
+
+    .qualificacoes {
+        padding: 5rem 2rem;
+    }
+    .qualificacoes-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100%;
+    }
+    .logo-qualificacao {
+        width: 60px;
+        height: auto;
+        margin: 5px; 
+        padding: 5px;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+    footer a {
+        padding-inline: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    /* Ajustes para dispositivos móveis menores */
+    .interface {
+        padding: 0 1rem; /
+    }
+
+    .mid-info {
+        padding: 5rem 1rem; 
+    }
+
+    .personal-info {
+        margin-top: 3rem;
+    }
+
+    .name {
+        font-size: 4rem; 
+    }
+
+    .desc-secao {
+        padding: 2rem; 
+    }
+
+    .desc-secao-left {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .desc-secao img {
+        width: 100%;
+        height: auto;
+        border-radius: 0; 
+    }
+
+    .form {
+        padding: 3rem 1rem; 
+    }
+
+    .formacao-item {
+        flex-basis: 100%;
+        text-align: center;
+        
+    }
+
+    .projetos {
+        padding: 3rem 1rem; 
+    }
+    .qualificacoes {
+        padding: 3rem 1rem; 
+    }
+    .qualificacoes-img {
+        max-width: 80px; 
+    }
+
+    footer {
+        padding: 1rem;
+    }
+    footer a {
+        padding-inline: 0.5rem;
+    }
+}
